@@ -1,0 +1,207 @@
+.container{
+    background-color: rgba(191, 234, 232, 0.712); 
+    width: 100%;
+    margin-left: 0%;
+}
+
+/*cabeçalho pagina*/
+
+.header{
+
+    background-image: linear-gradient(to right, #f49e12, #e7a54a, #d7ac71, #c2b294, #a7b9b8, #7ebfdb, rgb(8, 211, 242), #07c6ff);
+
+    
+    
+}
+
+.logo{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/* menu inicio da página*/ 
+.nav-bar li{
+   
+    float: left;
+    text-align: center;
+    letter-spacing:2px;
+  
+}
+
+.nav-bar ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding-left:32%;
+    background-color: indigo;
+    font-family: "Fira Sans", sans-serif;
+}
+
+
+.nav-bar li a{
+    color:white;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+       
+}
+
+.nav-bar li a:hover{
+    background-color:#07c6ff ;
+    color:indigo;
+}
+
+/* banner*/
+.banner img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    
+}
+
+.resorts{
+    margin-top: 25px;
+    padding: 5px;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.resorts header{
+    text-align: center;
+    color: rgb(30, 30, 107);
+    font-size: 40pt;
+}
+
+.resorts article{
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+ }
+
+.resorts p{
+    padding: 5px;
+    text-align: justify;
+    color: rgb(14, 14, 145);
+    font-size: 25px;
+}
+
+/* cards */
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 15px;
+    height: 350px;
+    margin: 2% 0 2% 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+  }
+
+.img-card{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+  
+.banner-card{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    text-align: center;
+    background-color: indigo;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.banner-card a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+/* reserva */
+.reserva{
+    background-image: linear-gradient(RoyalBlue, LightSkyBlue);
+    height: 250px;
+}
+
+.reserva h2{
+    text-align: center;
+    font-size: 50pt;
+    color: rgb(53, 22, 75);
+    padding: 35px 0;
+    font-family: "Fira Sans";
+}
+
+.reserva button{
+    background-color: indigo;
+    padding: 20px 26px;
+    color: white;
+    font-size: 20pt;
+    border-color: aqua;
+    border-radius: 8px 0;
+    margin-bottom: 20px;
+    margin-left: 45%;
+}
+
+.reserva button a{
+   text-decoration: none;
+   color: white;
+   font-family: "Fira Sans";
+}
+
+.reserva button a:hover{
+    background-color: rgb(157, 45, 148);
+    color:white;
+ }
+ 
+ /* rodape da página*/
+
+.footer{
+    background-image: linear-gradient(#7ebfdb, rgb(8, 211, 242), #07c6ff);
+    margin-top: 5px;  
+    color: white;
+    text-align: center;
+    
+   }
+
+.footer li{
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    
+}
+
+.footer ul{
+  
+    list-style-type: none;
+    overflow: hidden;
+
+}
+
+.footer li a{
+    color:white;
+    text-decoration: none;
+    padding: 24px 20px;
+  }
+
+.footer li a:hover{
+    color:indigo;
+}
+
+.creditos{
+    margin-top: 2%;
+}
